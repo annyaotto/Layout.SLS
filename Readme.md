@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido com o fim de ser um agrupador de links de uma confeitaria virtual. Ajudando na comunicação do cliente ao usuário em suas encomendas virtuais.
+Esse projeto foi desenvolvido com o fim de ser um agrupador de links de uma confeitaria virtual. Ajudando na comunicação do cliente ao usuário em suas encomendas virtuais, possui como característca a troca das cores do ambiente desenvovido através de um botão.
 
 ## 🔖 Layout
 
