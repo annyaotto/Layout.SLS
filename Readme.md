@@ -32,4 +32,4 @@ Esse projeto foi desenvolvido com o fim de ser um agrupador de links de uma conf
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/4qIqawIATsd4zTHASyHx3C/Projeto-Layout?node-id=0-1&p=f&t=6s1QnLcTYPrIjkCl-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-
+Link para acessar a página na Web referente ao projeto: https://github.com/annyaotto/Layout.SLS
