@@ -86,11 +86,16 @@ body {
     right:0;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: slide-back 0.2s;
 }
 
 .dark #switch button {
-  left: 0;
-  right: initial;
+ animation: slide-in 0.4s forwards;
+  }
+
+  #switch button:hover {
+    outline: 8px solid rgba(255, 255, 255, 0.614);
   }
 
 #switch span {
@@ -164,5 +169,23 @@ footer a {
 
   .dark {
     --bg-url: url(./img/FundoMobileDark.jpg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    right: 0;
+  }
+   to {
+    right: 50%;
+   }
+}
+
+@keyframes slide-back {
+  from {
+    right: 50%;
+  }
+  to{
+    right:0;
   }
 }
