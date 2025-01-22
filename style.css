@@ -32,6 +32,7 @@ body {
     background: var(--bg-url);
     background-size: no-repeat top center/cover;
     color: var(--text-color);
+    height:100vh;
 }
 
 #container {
@@ -156,20 +157,12 @@ footer a {
     text-decoration: none;
 }
 
-@keyframes slide-in {
-    from {
-      left: 0;
-    }
-    to {
-      left: 50%;
-    }
+@media (min-width: 700px){
+  :root {
+    --bg-url:url(./img/FundoMobileLight.jpg);
   }
-  
-  @keyframes slide-back {
-    from {
-      left: 50%;
-    }
-    to {
-      left: 0;
-    }
+
+  .dark {
+    --bg-url: url(./img/FundoMobileDark.jpg);
   }
+}
