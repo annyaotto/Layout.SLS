@@ -35,8 +35,8 @@ body {
 }
 
 #container {
-    width: 360px;
-    height:712px;
+    width: 100%;
+    max-width: 588px;
     margin: 30px auto 0px;
     padding: 24px;
 
