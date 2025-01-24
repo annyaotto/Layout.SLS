@@ -6,7 +6,7 @@
 
 .light {
     --text-color: white;
-    --bg-url: url(./img/FundoDesktopLight.jpg);
+    --bg-url: url(./img/FundoMobileLight);
     --background-text: rgba(170, 136, 108, 1);
     --switch-bg: rgba(170, 136, 108, 1);
     --span-bg: rgba(245, 216, 216, 1);
@@ -17,7 +17,7 @@
 
 .dark {
     --text-color: black;
-    --bg-url: url(./img/FundoDesktopDark.png);
+    --bg-url: url(./img/FundoMobileDark.jpg);
     --background-text: rgba(130, 94, 65, 1);
     --switch-bg: rgba(72, 54, 40, 1);
     --span-bg: rgb(0, 0, 0);
@@ -164,11 +164,11 @@ footer a {
 
 @media (min-width: 700px){
   :root {
-    --bg-url:url(./img/FundoMobileLight.jpg);
+    --bg-url:url(./img/FundoDesktopLight.jpg);
   }
 
   .dark {
-    --bg-url: url(./img/FundoMobileDark.jpg);
+    --bg-url: url(./img/FundoDesktopDark.png);
   }
 }
 
